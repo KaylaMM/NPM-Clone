@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .npmLogo{
+      width: 60px;
+      margin-right: 1rem;
+  }
+
+  .magnifyGlass{
+      width: 20px;
+      margin-right: 1rem; 
+      position: relative
+  }
+
+  #searchButton {
+      background-color: #fb3e44;
+      color: white; 
+      font: 'Poppins';
+  }
+
+  form{
+      display: flex;
+  }
+
+  form > input {
+    flex-direction: column; 
+    justify-content: space-evenly;
+    color: rgba(0,0,0,.05);
+    width: 600px;
+  }
+
+  #loginButton{
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  #build{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      background-color: rgba(232,217,217,.3)
+  }
+
+  h3{
+      text-align: center;
+      font-size: 3em;
+      font-weight: bold; 
+  }
+
+  #build-text {
+      font-size: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 10px 20px; 
+  }
+
+  #seeplansButton{  
+    background-color:#FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white; 
+    font: 'Poppins';
+  }
+
+  #forfreeButton {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  .hexagon {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+  #open-source > .open-source-header {
+      background-color: rgba(255,204,53,.4);
+      transform: skew(9deg,0deg);
+      display: block;
+  }
+
+  .p {
+    font-size: 1em;
+  }
+
+  #services {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 200px;
+      font-size: 1em;
+  }
+
+  .headerTitle{
+    color:#FB3B49;
+    font-weight: bold; 
+  }
+
+  .browser {
+    width: 20px;
+    margin-right: 1rem; 
+    position: relative;
+  }
+
+  .team {
+    width: 20px;
+    margin-right: 1rem; 
+    position: relative;
+  }
+
+  .features {
+    width: 20px;
+    margin-right: 1rem; 
+    position: relative;
+  }
+
+  .npm-audit {
+    width: 20px;
+    margin-right: 1rem; 
+    position: relative;
+  }
+
+  .createidButton{
+      background-color: black;
+      color: white;
+      text-align: center;
+  }
+  
